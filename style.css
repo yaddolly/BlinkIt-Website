@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.vertical-line{
+    height: 60px;
+}
+
+#my-nav{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav-search{
+    width: 45%;
+    height: 40px;
+    border-radius: 6px;
+    border:1px solid #eeeeee ;
+    padding-left: 10px;
+    background-color:#f8f8f8;
+}
+
+.nav-search>input{
+    border: none;
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+#btn{
+    background-color:#0C831F;
+}
+
+#hero-section{
+    width: 90vw;
+}
+
+#hero-section>img{
+    width: 100%;
+}
+
+.my-container{
+    width: 90vw;
+    margin: auto;
+    overflow-x: scroll;
+
+}
+
+.my-list{
+white-space: nowrap;
+padding-top: 10px;
+}
+
+.my-list>img{
+  display: inline-block;
+}
+
+#categories-section,footer{
+    width: 90vw;
+    margin:auto;
+    
+}
+
+#categories-section>img{
+    width:95px;
+    height:170px;
+}
+
+#main-card{
+    width: 90vw;
+    margin: auto;
+}
+
+.heading>h5{
+    color: #0C831F;
+}
+
+#product-categories{
+    width: 100%;
+    /* margin: auto; */
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.my-list-1{
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.my-card{
+    width:230px;
+    display: inline-block !important;
+    margin-inline: 10px;
+}
+
+.my-card>img{
+    width: 90%;
+    margin: auto;
+
+}
+
+.time{
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    font-size: 10px;
+    padding:2px 5px;
+    font-weight: 900;
+}
+
+.product-name{
+    font-size: 13px;
+    font-weight:700;
+    margin-top: 5px;
+}
+
+.product-weight{
+    color: #828282;
+    font-weight: 200;
+    font-size:14px;
+}
+
+
+
+
+
+footer{
+    margin-top: 40px;
+}
+
+
+.footer-r-1{
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#footer-table-1{
+    flex: 2;
+}
+
+#footer-table-2{
+    flex: 3;
+}
+
+#footer-table-1>h3{
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+#footer-table-2>h3{
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    font-size: 14px;
+    color: rgb(68, 65, 65);
+    padding-bottom: 6px;
+}
+
+
+#footer-table-2>h3>span{
+    font-size: 18px;
+}
+
+.footer-r-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(68, 65, 65);
+}
+
+#footer-r2-c1{
+    width: 35%;
+    font-size: 12px;
+    color: rgb(68, 65, 65);
+    line-height: 18px;
+    margin:12px;
+}
+
+#footer-link{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+}
+
+#footer-link>button{
+    background-color: #213B52;
+    color: white;
+    font-size: 14px;
+}
+
+.social-icons{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(31, 30, 30);
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+.footer-r-3{
+    font-size: 14px;
+    color: rgb(68, 65, 65);
+    line-height: 18px;
+    margin:12px;
+}
+
+@media screen and (max-width:480px) {
+    #my-nav{
+        flex-direction: column !important;
+        padding: 15px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+    
+    .nav-search{
+        width: 80%;
+    }
+
+    #hero-section{
+        display: none !important;
+    }
+
+    .footer-r-3{
+        text-align: justify;
+    }
+
+    .footer-r-2{
+        flex-direction: column !important;
+    }
+
+    #footer-r2-c1{
+        width: 90vw !important;
+        margin-bottom: 20px;
+    }
+
+    #footer-link{
+        width: 70vw !important;
+        margin-bottom: 20px;
+    }
+
+    .social-icons{
+        width: 70vw !important;
+        margin-bottom: 20px;
+    }
+
+    .footer-r-1{
+        flex-direction: column;
+    }
+
+    #footer-table-1{
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    #footer-table-2{
+        flex: 1;
+    }
+
+    td{
+        text-align: center;
+    }
+
+    #footer-table-1>h3{
+         margin-bottom: 30px;
+         text-align: center;
+    }
+
+    #footer-table-2>h3{
+        margin-bottom: 30px;
+        text-align: center;
+   }
+}
+
+
