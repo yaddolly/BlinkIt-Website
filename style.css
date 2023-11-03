@@ -233,6 +233,35 @@ td{
     margin:12px;
 }
 
+@media screen and (max-width:780px) {
+   .footer-r-2{
+     flex-direction: column !important;
+     width: 90vw !important;
+   }
+
+   #footer-r2-c1{
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 20px;
+   }
+
+   #footer-link{
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 20px;
+   }
+
+   .social-icons{
+    width:90%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   }
+
+   .footer-r-3{
+    font-size: 16px;
+   }
+}
+
 @media screen and (max-width:480px) {
     #my-nav{
         flex-direction: column !important;
@@ -278,6 +307,7 @@ td{
 
     .footer-r-1{
         flex-direction: column;
+        margin-bottom: 30px;
     }
 
     #footer-table-1{
@@ -291,6 +321,7 @@ td{
 
     td{
         text-align: center;
+        font-size: 16px;
     }
 
     #footer-table-1>h3{
